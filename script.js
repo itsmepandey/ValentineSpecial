@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
 	e.preventDefault();
 	const userInput = codeInput.value.trim();
 	if (userInput === secretCode) {
-		resultDiv.innerHTML = 'Baby';
+		resultDiv.innerHTML = 'Bhabhi';
 		window.location.href = nextPageUrl;
 	} else {
 		resultDiv.innerHTML = 'Naa , Tum meri bhabhi nhi hoo kon hooo tum..? kaha hai meri pyari Bhabhi';
